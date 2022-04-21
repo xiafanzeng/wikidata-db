@@ -70,8 +70,3 @@ Two scripts are provided as examples of how to write parallelized queries over t
 - `fetch_with_rel_and_value.py`: fetches all QIDs which have a relationship with a specific value. For example: all triples where the relation is P413 and the object of the relation is Q622747.
 
 
-**For any questions or feedback, contact Neel Guha at nguha@cs.stanford.edu**
-
-
-
-
