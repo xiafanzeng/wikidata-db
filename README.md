@@ -1,14 +1,10 @@
-# simple-wikidata-db
+# wikidata-db
 
-This library provides a set of scripts to download the Wikidata dump, sort it into staging files, and query the data in these staged files in a distributed manner. The staging is optimized for (1) querying time, and (2) simplicity. 
-
-This library is helpful if you'd like to issue queries like: 
+This repo is helpful if you'd like to issue queries like: 
 
 - Fetch all QIDs which are related to [Q38257](https://www.wikidata.org/wiki/Q38257)
 - Fetch all triples corresponding to the relation (e.g. [P35](https://www.wikidata.org/wiki/Property:P35))
 - Fetch all aliases for a QID
-
-
 
 
 ## Downloading the dump 
